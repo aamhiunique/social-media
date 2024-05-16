@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/social-media/static/css/main.a44674ed.css",
-    "main.js": "/social-media/static/js/main.ebe5638e.js",
+    "main.css": "/social-media/static/css/main.919f1570.css",
+    "main.js": "/social-media/static/js/main.8949a445.js",
     "static/js/453.ad12f774.chunk.js": "/social-media/static/js/453.ad12f774.chunk.js",
+    "static/media/aamhiunique-logo.png": "/social-media/static/media/aamhiunique-logo.7128f3111b2f14ec562d.png",
     "index.html": "/social-media/index.html",
-    "main.a44674ed.css.map": "/social-media/static/css/main.a44674ed.css.map",
-    "main.ebe5638e.js.map": "/social-media/static/js/main.ebe5638e.js.map",
+    "main.919f1570.css.map": "/social-media/static/css/main.919f1570.css.map",
+    "main.8949a445.js.map": "/social-media/static/js/main.8949a445.js.map",
     "453.ad12f774.chunk.js.map": "/social-media/static/js/453.ad12f774.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a44674ed.css",
-    "static/js/main.ebe5638e.js"
+    "static/css/main.919f1570.css",
+    "static/js/main.8949a445.js"
   ]
 }
