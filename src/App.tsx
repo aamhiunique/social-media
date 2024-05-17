@@ -1,23 +1,21 @@
 import './App.css';
 import About from './components/about/About';
-import Blogs from './components/blogs/Blogs';
-import Counter from './components/counter/Counter';
-import Footer from './components/footer/Footer';
-import Nav from './components/nav/Nav';
-import Newsletter from './components/newsletter/Newsletter';
-import Partners from './components/partners/Partners';
+
+import Home from './components/home/Home';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Marketplace from './components/marketplace/Marketplace';
 
 function App() {
   return (
     <>
-      <Nav/>
-      <About/>
-      <Blogs/>
-      <Partners/>
-      <Counter/>
-      <Newsletter/>
-      <Footer/>
+        <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/market-place" element={<Marketplace />} />
 
+      </Routes>
+    </BrowserRouter>
     </>
     
   );
