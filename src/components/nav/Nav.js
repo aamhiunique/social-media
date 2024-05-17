@@ -42,6 +42,7 @@ const navigation = {
   ],
   pages: [
     { name: 'Marketplace', href: '/market-place' },
+    { name: 'Blogs', href: '/blogs' },
     { name: 'Contact', href: '/contact' },
     { name: 'About', href: '/about' },
   ],
