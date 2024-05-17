@@ -41,10 +41,10 @@ const navigation = {
     }
   ],
   pages: [
-    { name: 'Marketplace', href: '/market-place' },
-    { name: 'Blogs', href: '/blogs' },
-    { name: 'Contact', href: '/contact' },
-    { name: 'About', href: '/about' },
+    { name: 'Marketplace', href: '/social-media/market-place' },
+    { name: 'Blogs', href: '/social-media/blogs' },
+    { name: 'Contact', href: '/social-media/contact' },
+    { name: 'About', href: '/social-media/about' },
   ],
 }
 
@@ -181,7 +181,7 @@ export default function Nav() {
                 </div>
 
                 <div className="border-t border-gray-200 px-4 py-6">
-                  <a href="/" className="-m-2 flex items-center p-2">
+                  <a href="/social-media/" className="-m-2 flex items-center p-2">
                     <img
                       src={Diamond}
                       alt=""
@@ -216,7 +216,7 @@ export default function Nav() {
 
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
-                <a href="/">
+                <a href="/social-media/">
                   <span className="sr-only">Your Company</span>
                   <img
                     className="h-8 w-auto"
