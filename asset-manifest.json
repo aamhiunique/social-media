@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/social-media/static/css/main.919f1570.css",
-    "main.js": "/social-media/static/js/main.67747e64.js",
+    "main.js": "/social-media/static/js/main.c2ddb83f.js",
     "static/js/453.ad12f774.chunk.js": "/social-media/static/js/453.ad12f774.chunk.js",
     "static/media/aamhiunique-logo.png": "/social-media/static/media/aamhiunique-logo.82262d4f139baedd8423.png",
     "index.html": "/social-media/index.html",
     "main.919f1570.css.map": "/social-media/static/css/main.919f1570.css.map",
-    "main.67747e64.js.map": "/social-media/static/js/main.67747e64.js.map",
+    "main.c2ddb83f.js.map": "/social-media/static/js/main.c2ddb83f.js.map",
     "453.ad12f774.chunk.js.map": "/social-media/static/js/453.ad12f774.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.919f1570.css",
-    "static/js/main.67747e64.js"
+    "static/js/main.c2ddb83f.js"
   ]
 }
