@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/social-media/static/css/main.919f1570.css",
-    "main.js": "/social-media/static/js/main.8949a445.js",
+    "main.css": "/social-media/static/css/main.83e74383.css",
+    "main.js": "/social-media/static/js/main.a3907bb7.js",
     "static/js/453.ad12f774.chunk.js": "/social-media/static/js/453.ad12f774.chunk.js",
-    "static/media/aamhiunique-logo.png": "/social-media/static/media/aamhiunique-logo.7128f3111b2f14ec562d.png",
+    "static/media/aamhiunique-logo.png": "/social-media/static/media/aamhiunique-logo.82262d4f139baedd8423.png",
+    "static/media/revicons.eot": "/social-media/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/social-media/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/social-media/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/social-media/index.html",
-    "main.919f1570.css.map": "/social-media/static/css/main.919f1570.css.map",
-    "main.8949a445.js.map": "/social-media/static/js/main.8949a445.js.map",
+    "main.83e74383.css.map": "/social-media/static/css/main.83e74383.css.map",
+    "main.a3907bb7.js.map": "/social-media/static/js/main.a3907bb7.js.map",
     "453.ad12f774.chunk.js.map": "/social-media/static/js/453.ad12f774.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.919f1570.css",
-    "static/js/main.8949a445.js"
+    "static/css/main.83e74383.css",
+    "static/js/main.a3907bb7.js"
   ]
 }
