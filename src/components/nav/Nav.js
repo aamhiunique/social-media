@@ -41,6 +41,7 @@ const navigation = {
     }
   ],
   pages: [
+    { name: 'Marketplace', href: '/market-place' },
     { name: 'Contact', href: '/contact' },
     { name: 'About', href: '/about' },
   ],
@@ -54,7 +55,7 @@ export default function Nav() {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="bg-white">
+    <div className="bg-white z-1">
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpen}>
