@@ -286,13 +286,12 @@ export default function Nav() {
                   ))}
 
                   {navigation.pages.map((page) => (
-                    <a
-                      key={page.name}
-                      href={page.href}
-                      className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800"
-                    >
-                      {page.name}
-                    </a>
+                    <NavLink
+                    key={page.name}
+                      to={page.href}
+                      className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">
+                        {page.name}
+                      </NavLink>
                   ))}
                 </div>
               </Popover.Group>
