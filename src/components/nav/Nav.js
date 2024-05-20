@@ -3,7 +3,7 @@ import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Diamond from '../../assets/aamhiunique-logo.png';
 import Socialicons from './Socialicons';
-
+import { NavLink } from 'react-router-dom';
 
 const navigation = {
   categories: [
@@ -41,7 +41,7 @@ const navigation = {
     }
   ],
   pages: [
-    { name: 'Marketplace', href: '/market-place' },
+    { name: 'Marketplace', href: '/social-media/market-place' },
     { name: 'Blogs', href: '/social-media/blogs' },
     { name: 'Contact', href: '/social-media/contact' },
     { name: 'About', href: '/social-media/about' },
@@ -122,10 +122,11 @@ export default function Nav() {
                               <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
                                 <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" />
                               </div>
-                              <a href={item.href} className="mt-6 block font-medium text-gray-900">
-                                <span className="absolute inset-0 z-10" aria-hidden="true" />
+                              
+                              <NavLink to={item.href} className="mt-6 block font-medium text-gray-900">
+                              <span className="absolute inset-0 z-10" aria-hidden="true" />
                                 {item.name}
-                              </a>
+                              </NavLink>
                               <p aria-hidden="true" className="mt-1">
                                 Shop now
                               </p>
@@ -144,9 +145,7 @@ export default function Nav() {
                             >
                               {section.items.map((item) => (
                                 <li key={item.name} className="flow-root">
-                                  <a href={item.href} className="-m-2 block p-2 text-gray-500">
-                                    {item.name}
-                                  </a>
+                                   <NavLink className="-m-2 block p-2 text-gray-500" to={item.href}>{item.name}</NavLink>
                                 </li>
                               ))}
                             </ul>
@@ -160,36 +159,11 @@ export default function Nav() {
                 <div className="space-y-6 border-t border-gray-200 px-4 py-6">
                   {navigation.pages.map((page) => (
                     <div key={page.name} className="flow-root">
-                      <a href={page.href} className="-m-2 block p-2 font-medium text-gray-900">
+                      <NavLink to={page.href} className="-m-2 block p-2 font-medium text-gray-900">
                         {page.name}
-                      </a>
+                      </NavLink>
                     </div>
                   ))}
-                </div>
-
-                <div className="space-y-6 border-t border-gray-200 px-4 py-6">
-                  <div className="flow-root">
-                    <a href="#" className="-m-2 block p-2 font-medium text-gray-900">
-                      Sign in
-                    </a>
-                  </div>
-                  <div className="flow-root">
-                    <a href="#" className="-m-2 block p-2 font-medium text-gray-900">
-                      Create account
-                    </a>
-                  </div>
-                </div>
-
-                <div className="border-t border-gray-200 px-4 py-6">
-                  <a href="/social-media/" className="-m-2 flex items-center p-2">
-                    <img
-                      src={Diamond}
-                      alt=""
-                      className="block h-auto w-5 flex-shrink-0"
-                    />
-                    <span className="ml-3 block text-base font-medium text-gray-900">CAD</span>
-                    <span className="sr-only">, change currency</span>
-                  </a>
                 </div>
               </Dialog.Panel>
             </Transition.Child>
@@ -216,14 +190,14 @@ export default function Nav() {
 
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
-                <a href="/social-media/">
+                <NavLink to="/social-media/">
                   <span className="sr-only">Your Company</span>
-                  <img
-                    className="h-8 w-auto"
-                    src={Diamond}
-                    alt=""
-                  />
-                </a>
+                    <img
+                      className="h-8 w-auto"
+                      src={Diamond}
+                      alt=""
+                    />
+                </NavLink>
               </div>
 
               {/* Flyout menus */}
@@ -272,10 +246,7 @@ export default function Nav() {
                                               className="object-cover object-center"
                                             />
                                           </div>
-                                          <a href={item.href} className="mt-6 block font-medium text-gray-900">
-                                            <span className="absolute inset-0 z-10" aria-hidden="true" />
-                                            {item.name}
-                                          </a>
+                                          <NavLink className="-m-2 block p-2 text-gray-500" to={item.href}>{item.name}</NavLink>
                                           <p aria-hidden="true" className="mt-1">
                                             Shop now
                                           </p>
@@ -295,9 +266,9 @@ export default function Nav() {
                                           >
                                             {section.items.map((item) => (
                                               <li key={item.name} className="flex">
-                                                <a href={item.href} className="hover:text-gray-800">
+                                                <NavLink to={item.href} className="hover:text-gray-800">
                                                   {item.name}
-                                                </a>
+                                                </NavLink>
                                               </li>
                                             ))}
                                           </ul>
