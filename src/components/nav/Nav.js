@@ -41,7 +41,7 @@ const navigation = {
     }
   ],
   pages: [
-    { name: 'Marketplace', href: '/social-media/market-place' },
+    { name: 'Marketplace', href: '/market-place' },
     { name: 'Blogs', href: '/social-media/blogs' },
     { name: 'Contact', href: '/social-media/contact' },
     { name: 'About', href: '/social-media/about' },
