@@ -1,21 +1,19 @@
-import React from 'react'
-import Nav from '../nav/Nav'
-import About from '../about/About'
+
 import Blogs from '../blogs/Blogs'
 import Partners from '../partners/Partners'
 import Counter from '../counter/Counter'
 import Newsletter from '../newsletter/Newsletter'
-import Footer from '../footer/Footer'
+import Homeabout from '../about/Homeabout'
+import Calltoaction from '../calltoaction/Calltoaction'
 const Home = () => {
     return (
         <>
-            <Nav/>
-            <About/>
+            <Homeabout/>
             <Blogs/>
             <Partners/>
             <Counter/>
+            <Calltoaction/>
             <Newsletter/>
-            <Footer/>
         </>
     )
 }

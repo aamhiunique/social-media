@@ -12,13 +12,13 @@ const navigation = {
       name: 'Services',
       featured: [
         {
-          name: 'Security Operations Center',
+          name: 'Content Creation',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
           imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
         },
         {
-          name: 'VAPT',
+          name: 'Influencer Marketing',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
           imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
@@ -26,14 +26,14 @@ const navigation = {
       ],
       sections: [
         {
-          id: 'iprotectservices',
-          name: 'iProtect Services',
+          id: 'aamhiuniqueservices',
+          name: 'Aamhiunique Services',
           items: [
-            { name: 'Security Operation Centers', href: '#' },
-            { name: 'Vulnerability Assessment and Penetration Testing', href: '#' },
-            { name: 'Threat Hunting', href: '#' },
-            { name: 'SIEM', href: '#' },
-            { name: 'Staffing', href: '#' },
+            { name: 'Branding', href: '#' },
+            { name: 'Content Creation', href: '#' },
+            { name: 'Professional TVCs', href: '#' },
+            { name: 'Website Development', href: '#' },
+            { name: 'Social Media Marketing', href: '#' },
           ],
         },
         
@@ -128,7 +128,7 @@ export default function Nav() {
                                 {item.name}
                               </NavLink>
                               <p aria-hidden="true" className="mt-1">
-                                Shop now
+                                View More
                               </p>
                             </div>
                           ))}
@@ -248,7 +248,7 @@ export default function Nav() {
                                           </div>
                                           <NavLink className="-m-2 block p-2 text-gray-500" to={item.href}>{item.name}</NavLink>
                                           <p aria-hidden="true" className="mt-1">
-                                            Shop now
+                                            View More
                                           </p>
                                         </div>
                                       ))}
